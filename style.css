@@ -1,8 +1,10 @@
+
 body {
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
+
 .body {
     flex: 1 0 auto;
     display: flex;
@@ -11,7 +13,34 @@ body {
 
 }
 
-.section{
-    border: 5px solid red;
-    flex-basis: 500px;
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: #636363;
+    padding: 16px 0;
 }
+
+/* Contents in the .body section */
+.section {
+}
+
+.one {
+    background-color: black;
+}
+
+.two {
+    /* background-color: #3b3b3b; */
+}
+
+.three {
+    background-color: 	#222222;
+}
+
+.four {
+    /* background-color: #636363; */
+}
+
