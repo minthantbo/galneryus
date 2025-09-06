@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.body {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.section{
+    border: 5px solid red;
+    flex-basis: 500px;
+}
