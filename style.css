@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-
+    color: white;
 }
 
 .footer {
@@ -26,11 +26,29 @@ body {
 
 /* Contents in the .body section */
 .section {
+    display: flex;
 }
 
+/* things inside sec1 */
 .one {
     background-color: black;
+    height: 400px;
+    flex-direction: column;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+}
+li{
+    list-style-type: none;
+}
+
 
 .two {
     /* background-color: #3b3b3b; */
