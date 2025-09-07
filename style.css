@@ -10,7 +10,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    color: white;
 }
 
 .footer {
@@ -20,7 +19,7 @@ body {
     color: whitesmoke;
     font-size: 30px;
     font-weight: 900;
-    background-color: #636363;
+    background-color: #1f2937;
     padding: 16px 0;
 }
 
@@ -31,8 +30,7 @@ body {
 
 /* things inside sec1 */
 .one {
-    background-color: black;
-    height: 400px;
+    background-color: #1f2937;
     flex-direction: column;
 }
 
@@ -45,22 +43,59 @@ body {
 .hero{
     font-family: 'Cinzel';
     font-weight: 700;
-    font-size: 50px;
+    font-size: 24px;
+    color: red;
 }
 .links {
     display: flex;
     gap: 24px;
-    font-size: 25px;
+    font-size: 18px;
 }
 a{
     text-decoration: none;
-    color: aliceblue;
+    color: whitesmoke;
+}
+a:hover {
+    text-decoration: underline;
 }
 li{
     list-style-type: none;
 }
 
-
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 200px;
+    gap: 100px;
+}
+.introtext{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    gap: 10px;
+}
+.introtext .head {
+    font-size: 48px;
+    color: white;
+}
+.introtext .short {
+    font-size: 18px;
+    color: rgb(228, 228, 228);
+    flex-grow: 0;
+}
+.introtext button{
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid grey;
+    padding: 10px;
+}
+.introimage img {
+    width: 500px;
+    height: 300px;
+    border: 3px solid silver;
+    border-radius: 20px;
+}
 .two {
     /* background-color: #3b3b3b; */
 }
