@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     display: flex;
@@ -17,8 +22,8 @@ body {
     justify-content: center;
     align-items: center;
     color: whitesmoke;
-    font-size: 30px;
-    font-weight: 900;
+    font-family: 'Cinzel';
+    font-size: 0.875rem;
     background-color: #1f2937;
     padding: 16px 0;
 }
@@ -43,7 +48,7 @@ body {
 .hero{
     font-family: 'Cinzel';
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.25rem;
     color: red;
 }
 .links {
@@ -76,7 +81,7 @@ li{
     gap: 10px;
 }
 .introtext .head {
-    font-size: 48px;
+    font-size: 2.5rem;
     color: white;
 }
 .introtext .short {
