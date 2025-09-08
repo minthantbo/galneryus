@@ -1,4 +1,9 @@
 # Galneryus Landing Page
+
+> **⚠️ Will Work properly only on desktop browsers or browser desktop mode in smaller devices.**
+> 
+> Haven't adjusted ratios for different devices yet.
+
 Sample Landing Page for a Japanese power metal band, GALNERYUS.
 
 Includes short introductions on the band and the current members respectively.
