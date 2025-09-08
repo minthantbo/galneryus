@@ -25,7 +25,7 @@ body {
     font-family: 'Cinzel';
     font-size: 0.875rem;
     background-color: #1f2937;
-    padding: 16px 0;
+    padding: 36px 0;
 }
 
 /* Contents in the .body section */
@@ -140,13 +140,14 @@ li{
     height: 200px;
     border: 5px solid rgb(80, 74, 74);
     border-radius: 10px;
+    margin-bottom: 24px;
 }
 /* end of section two  */
 .three {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 100px 400px;
+    padding: 100px 200px;
 }
 .three .quote {
     font-weight: 300;
@@ -154,6 +155,7 @@ li{
     font-style: italic;
     font-size: 38px;
     text-align: left;
+    margin-bottom: 24px;
 }
 .three .quoter {
     text-align: right;
@@ -166,6 +168,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 .four .spotifybox{
     display: flex;
@@ -173,5 +176,26 @@ li{
     align-items: center;
     background-color: black;
     padding: 50px 100px;
+    color: white;
+    margin: 100px ;
+    gap: 200px;
+    border-radius: 10px;
 }
-
+.listentext > div {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.listentext > p {
+    font-size: 1.25rem;
+}
+.spotifybox > button {
+    background-color: black;
+    border: 3px solid silver;
+    border-radius: 10px;
+    padding: 16px 32px;
+    font-family: 'Cinzel';
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: white;
+}
