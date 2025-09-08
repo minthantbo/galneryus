@@ -44,6 +44,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
+    padding: 16px 0;
 }
 .hero{
     font-family: 'Cinzel';
@@ -76,18 +77,18 @@ li{
 }
 .introtext{
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     gap: 10px;
 }
 .introtext .head {
     font-size: 2.5rem;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .introtext .short {
     font-size: 18px;
     color: rgb(228, 228, 228);
-    flex-grow: 0;
+    max-width: 700px;
 }
 .introtext button{
     background-color: black;
@@ -107,6 +108,7 @@ li{
     justify-content: center;
     align-items: center;
     padding: 48px;
+    margin-bottom: 100px;
 }
 
 .infohead {
@@ -124,6 +126,14 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.subtext {
+    width: 200px;
+    font-size: 0.875rem;
+    color: rgb(43, 38, 38);
 }
 .members img{
     width: 200px;
@@ -131,8 +141,10 @@ li{
     border: 5px solid rgb(80, 74, 74);
     border-radius: 10px;
 }
+
 .three {
     background-color: 	#222222;
+    height: 100px;
 }
 
 .four {
